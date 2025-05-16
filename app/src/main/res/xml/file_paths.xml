@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="files" path="."/>
+    <external-files-path name="external" path="."/>
+    <external-path name="external_shared" path="."/>
+
+    <!-- ✅ 关键修复：添加以下这行！-->
+    <external-path name="external_photos" path="photo/" />
+</paths>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PersonaltemView">
+        <attr name="icon" format="reference"/>
+        <attr name="name" format="string"/>
+        <attr name="data" format="string"/>
+        <attr name="show_more" format="boolean"/>
+        <attr name="show_line" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ✅ App permissions declarations -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentalApp"
+        android:hardwareAccelerated="true"
+        tools:targetApi="31">
+
+        <!-- ✅ FileProvider: for sharing PDF/images from local storage -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- ✅ Existing activities (unchanged) -->
+        <activity android:name=".auth.MyCenter" android:exported="false" android:label="My center"/>
+        <activity android:name=".search.SearchResult" android:exported="false" android:label="Query Result"/>
+        <activity android:name=".maintenance.MaintenanceManage" android:exported="false" android:label="Maintenance Manage"/>
+        <activity android:name=".search.ApplyActivity" android:exported="false"/>
+        <activity android:name=".utils.Pay" android:exported="false"/>
+        <activity android:name=".house.EditHouse" android:exported="false" android:label="Edit House"/>
+        <activity android:name=".house.AddHouse" android:exported="false" android:label="Add House"/>
+        <activity android:name=".map.Collect" android:exported="false" android:label="Favorites"/>
+        <activity android:name=".house.Manage" android:exported="false" android:label="House Manage"/>
+        <activity android:name=".utils.Pdf" android:exported="false"/>
+        <activity android:name=".Rent.Rent" android:exported="false" android:label="Rent🧾"/>
+        <activity android:name=".house.Detail" android:exported="false" android:label="House Detail"/>
+        <activity
+            android:name=".manhattonNavigate_486.Map"
+            android:exported="true"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity android:name=".auth.Register" android:exported="false"/>
+        <activity android:name=".base.FirebaseHouseManagerActivity" />
+
+
+        <!-- ✅ Main entry activity: login -->
+        <activity android:name=".auth.Login" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- ✅ Admin panel -->
+        <activity android:name=".manhattonNavigate_486.Admin" android:exported="true"/>
+
+        <!-- ✅ Google Maps API Key configuration -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAtUw9mwOj2mY6vADIwtyLR5QDRdlWe0RU" />
+
+        <!-- ✅ NEW: Register wheelchair navigation activity -->
+        <!-- This enables launching AccessibleMapActivity -->
+        <activity
+            android:name=".InDevelop.AccessibleMapActivity"
+            android:exported="false"
+            android:label="Wheelchair Navigation"
+            android:theme="@style/Theme.RentalApp" />
+
+        <activity
+            android:name=".InDevelop.POIAnalyzerActivity"
+            android:exported="false"
+            android:label="POI Accessibility Analyzer"
+            android:theme="@style/Theme.RentalApp" />
+
+        <!-- ✅ 注册 BusinessDetail 页面 -->
+        <activity
+            android:name=".manhattonNavigate_486.BusinessDetail"
+            android:exported="false"
+            android:label="Business Detail"
+            android:theme="@style/Theme.RentalApp" />
+    </application>
+</manifest>

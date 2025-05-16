@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkgray">#FBFBFD</color>
+    <color name="green">#15AEAA</color>
+    <color name="blue">#88B6F0</color>
+    <color name="divider">#DCDCDC</color>
+    <color name="red">#E21D48</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="colorPrimary">#8B0000</color>          <!-- 深红 primary -->
+    <color name="colorPrimaryDark">#5A0000</color>       <!-- 深红 dark -->
+    <color name="colorAccent">#FF6347</color>           <!-- 番茄红 accent -->
+    <color name="colorOnPrimary">#FFFFFF</color>        <!-- 白字 -->
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="background">#FFFFFF</color>            <!-- 默认白背景 -->
+    <color name="textPrimary">#000000</color>
+
+</resources>

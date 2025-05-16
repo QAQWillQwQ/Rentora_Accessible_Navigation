@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Green Cafe",
+    "type": "Clothing",
+    "lat": 40.739735,
+    "lon": -74.00391,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "asphalt"
+  },
+  {
+    "name": "Fresh Grocery",
+    "type": "Restaurant",
+    "lat": 40.737192,
+    "lon": -74.004345,
+    "wheelchair": "limited",
+    "kerb": "no",
+    "incline": "steep",
+    "surface": "cobblestone"
+  },
+  {
+    "name": "NYC Pharmacy",
+    "type": "Bar",
+    "lat": 40.739057,
+    "lon": -73.998502,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "concrete"
+  },
+  {
+    "name": "Central Bakery",
+    "type": "Pharmacy",
+    "lat": 40.739878,
+    "lon": -73.995594,
+    "wheelchair": "no",
+    "kerb": "high",
+    "incline": "slight",
+    "surface": "brick"
+  },
+  {
+    "name": "Joe's Pharmacy",
+    "type": "Pharmacy",
+    "lat": 40.74201,
+    "lon": -73.997174,
+    "wheelchair": "yes",
+    "kerb": "yes",
+    "incline": "flat",
+    "surface": "asphalt"
+  },
+  {
+    "name": "NYC Pharmacy",
+    "type": "Clothing",
+    "lat": 40.73819,
+    "lon": -73.994564,
+    "wheelchair": "limited",
+    "kerb": "no",
+    "incline": "moderate",
+    "surface": "dirt"
+  },
+  {
+    "name": "NYC Bakery",
+    "type": "Bar",
+    "lat": 40.741345,
+    "lon": -74.004726,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "concrete"
+  },
+  {
+    "name": "Fresh Bar",
+    "type": "Bakery",
+    "lat": 40.746046,
+    "lon": -74.005301,
+    "wheelchair": "no",
+    "kerb": "no",
+    "incline": "steep",
+    "surface": "gravel"
+  },
+  {
+    "name": "Fresh Bakery",
+    "type": "Grocery",
+    "lat": 40.745914,
+    "lon": -74.005757,
+    "wheelchair": "yes",
+    "kerb": "yes",
+    "incline": "flat",
+    "surface": "asphalt"
+  },
+  {
+    "name": "Manhattan Gym",
+    "type": "Restaurant",
+    "lat": 40.746309,
+    "lon": -73.994118,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "slight",
+    "surface": "concrete"
+  },
+
+  {
+    "name": "Sunrise Cafe",
+    "type": "Cafe",
+    "lat": 40.741234,
+    "lon": -74.002345,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "concrete"
+  },
+  {
+    "name": "Downtown Pharmacy",
+    "type": "Pharmacy",
+    "lat": 40.742567,
+    "lon": -74.001234,
+    "wheelchair": "limited",
+    "kerb": "no",
+    "incline": "slight",
+    "surface": "asphalt"
+  },
+  {
+    "name": "City Bookstore",
+    "type": "Bookstore",
+    "lat": 40.743890,
+    "lon": -74.000123,
+    "wheelchair": "no",
+    "kerb": "high",
+    "incline": "moderate",
+    "surface": "brick"
+  },
+  {
+    "name": "Green Market",
+    "type": "Grocery",
+    "lat": 40.744321,
+    "lon": -73.999012,
+    "wheelchair": "yes",
+    "kerb": "yes",
+    "incline": "flat",
+    "surface": "concrete"
+  },
+  {
+    "name": "Fitness Hub",
+    "type": "Gym",
+    "lat": 40.745654,
+    "lon": -73.997901,
+    "wheelchair": "limited",
+    "kerb": "no",
+    "incline": "steep",
+    "surface": "gravel"
+  },
+  {
+    "name": "Urban Bistro",
+    "type": "Restaurant",
+    "lat": 40.746987,
+    "lon": -73.996790,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "asphalt"
+  },
+  {
+    "name": "Metro Clothing",
+    "type": "Clothing",
+    "lat": 40.748210,
+    "lon": -73.995679,
+    "wheelchair": "no",
+    "kerb": "high",
+    "incline": "moderate",
+    "surface": "brick"
+  },
+  {
+    "name": "Central Bank",
+    "type": "Bank",
+    "lat": 40.749543,
+    "lon": -73.994568,
+    "wheelchair": "yes",
+    "kerb": "yes",
+    "incline": "flat",
+    "surface": "concrete"
+  },
+  {
+    "name": "Downtown Bar",
+    "type": "Bar",
+    "lat": 40.750876,
+    "lon": -73.993457,
+    "wheelchair": "limited",
+    "kerb": "no",
+    "incline": "slight",
+    "surface": "cobblestone"
+  },
+  {
+    "name": "Sunset Bakery",
+    "type": "Bakery",
+    "lat": 40.752109,
+    "lon": -73.992346,
+    "wheelchair": "yes",
+    "kerb": "lowered",
+    "incline": "flat",
+    "surface": "asphalt"
+  }
+]

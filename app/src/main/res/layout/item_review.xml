@@ -1,0 +1,24 @@
+<!-- 🟣 item_review.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEEEEE"
+    android:layout_marginBottom="8dp"> <!-- ✅ 修复：layout_marginBottom -->
+
+    <TextView
+        android:id="@+id/poiName"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/reviewText"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:paddingTop="4dp"/>
+</LinearLayout>
